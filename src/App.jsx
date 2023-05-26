@@ -2,8 +2,6 @@ import { useEffect, useRef } from "react";
 import ExtractIDInfo from "./components/ExtractIDInfo";
 import LivenessDetection from "./components/LivenessDetection";
 
-console.log('test commit')
-
 function App() {
   const refTVWebSDK = useRef(null);
   
