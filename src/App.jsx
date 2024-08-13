@@ -1,8 +1,7 @@
 import { useEffect, useRef } from "react";
 import ExtractIDInfo from "./components/ExtractIDInfo";
 import LivenessDetection from "./components/LivenessDetection";
-
-console.log('test commit')
+import FaceAuthentication from "./components/FaceAuthentication";
 
 function App() {
   const refTVWebSDK = useRef(null);
@@ -23,6 +22,8 @@ function App() {
       <ExtractIDInfo webSdkRef={refTVWebSDK} />
 
       <LivenessDetection webSdkRef={refTVWebSDK} />
+
+      <FaceAuthentication webSdkRef={refTVWebSDK} />
     </>
   );
 }

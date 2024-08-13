@@ -27,6 +27,7 @@ const LivenessDetection = ({ webSdkRef }) => {
         <select value={mode} onChange={onChangeMode}>
           <option value={TVWebSDK.Constants.Mode.ACTIVE}>Active</option>
           <option value={TVWebSDK.Constants.Mode.PASSIVE}>Passive</option>
+          <option value={TVWebSDK.Constants.Mode.FLASH}>Flash</option>
         </select>
       </div>
       <button onClick={onDetect}>Start</button>
